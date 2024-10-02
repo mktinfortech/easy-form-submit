@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 8px;
+}
+
+h3{
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.formulario{
+    width:550px;
+    height: 390px;
+    background-color: darkcyan;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+
+.formInputs{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formInputs input,
+.formInputs textarea,
+.formInputs button {
+    margin-top: 25px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+}
+
+.area-texto{
+    height: 120px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+.formInputs button{
+    font-size: 19px;
+    font-weight: bold;
+    background-color: chartreuse;
+    color: rgba(51, 46, 40, 0.445);
+}
+
+
+
